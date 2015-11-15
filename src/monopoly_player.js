@@ -1,5 +1,5 @@
 var inherits = require('util').inherits;
-var TableTop = require("../lib/TableTop/bundle");
+var TableTop = require("tabletop-boardgames");
 console.log(TableTop);
 
 function MonopolyPlayer(name, number) {

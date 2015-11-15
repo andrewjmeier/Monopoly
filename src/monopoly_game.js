@@ -1,7 +1,7 @@
 var ChanceDeck = require("./cards/chanceDeck");
 var CommunityChestDeck = require("./cards/communityChestDeck");
 var inherits = require('util').inherits;
-var TableTop = require("../lib/TableTop/bundle");
+var TableTop = require("tabletop-boardgames");
 
 
 function MonopolyGame(players, board, turnMap) {

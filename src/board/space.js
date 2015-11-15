@@ -1,6 +1,6 @@
 require("./boardConstants");
 
-var TableTop = require("../../lib/TableTop/bundle");
+var TableTop = require("tabletop-boardgames");
 // var Tile = require("../../board/tile");
 var inherits = require('util').inherits;
 

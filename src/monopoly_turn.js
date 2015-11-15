@@ -1,6 +1,6 @@
 require("./board/boardConstants.js");
 var Property = require("./board/properties/property.js");
-var TableTop = require("../lib/TableTop/bundle");
+var TableTop = require("tabletop-boardgames");
 var inherits = require('util').inherits;
 
 console.log(TableTop.Turn);

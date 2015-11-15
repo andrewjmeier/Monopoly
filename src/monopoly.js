@@ -1,5 +1,5 @@
 // require("./board/boardConstants.js");
-var TableTop = require("../lib/TableTop/bundle.js");
+var TableTop = require("tabletop-boardgames");
 
 var Player = require("./monopoly_player.js");
 var Card = require("./cards/card.js");

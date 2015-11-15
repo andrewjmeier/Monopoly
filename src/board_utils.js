@@ -12,7 +12,7 @@ var Go = require('./board/other/go'),
     HousingProperty = require('./board/properties/housingProperty'),
     RailroadProperty = require('./board/properties/railroadProperty');
     // Board = require('../board/board'); // looks ugly, maybe think of better naming pattern
-var TableTop = require("../lib/TableTop/bundle");
+var TableTop = require("tabletop-boardgames");
 
 // end of space class definitions
 
