@@ -6,7 +6,7 @@ var inherits = require('util').inherits;
 
 
 function Space(name) {
-  TableTop.Tile.call(this);
+  TableTop.Tile.call(this, {});
   this.name = name;
   this.occupier = null;
 };

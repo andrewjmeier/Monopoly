@@ -116,6 +116,22 @@ MonopolyPlayer.prototype.assets = function() {
   return assets;
 };
 
+//used in trading
+MonopolyPlayer.prototype.removeProperty = function(property) {
+  var index = this.properties.indexOf(property);
+  //double check player has property then remove from player
+  if(index > -1){
+    this.properties.splice(index, 1);
+  }
 
+};
+
+MonopolyPlayer.prototype.addItems = function(items) {
+  for (var i in items.property) {
+    this.properties.push(items.property[i]);
+    items.property[i].owner = this;
+  }
+  this.money += items.money;
+};
 
 module.exports = MonopolyPlayer;
